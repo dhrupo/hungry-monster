@@ -10,6 +10,9 @@ document.getElementById('search-btn').addEventListener('click', () => {
       .catch(err => handleError())
       .then(data => searchFoods(data.meals));
   }
+  else if (search.length === 0) {
+    handleError();
+  }
   else {
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
       .then(res => res.json())
