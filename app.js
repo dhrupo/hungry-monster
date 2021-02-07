@@ -86,7 +86,7 @@ const showFoodDeatil = food => {
 const handleError = () => {
   const foodDiv = document.getElementById("show-error");
   const foodError = `
-    <h2 class="food-error">No food found! Please Serach again</h2>
+    <h2 class="food-error">No food found! Please search again</h2>
   `
   foodDiv.innerHTML = foodError;
   document.getElementById('search-input').value = "";
