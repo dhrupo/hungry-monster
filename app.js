@@ -89,4 +89,5 @@ const handleError = () => {
     <h2 class="food-error">No food found! Please Serach again</h2>
   `
   foodDiv.innerHTML = foodError;
+  document.getElementById('search-input').value = "";
 }

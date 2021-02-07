@@ -57,9 +57,6 @@ nav img {
   border-radius: 10px;
 }
 
-.food-detail ul {
-}
-
 .food-detail ul li {
   list-style-image: url(images/check.png);
   color: #6c6c6c;
